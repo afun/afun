@@ -1,0 +1,21 @@
+AFUN [GIT] commit aac0ca16: add torrents
+
+
+Path  : git
+Date  : 2011-12-26 02:02:36 +0800
+Author: keyduel
+Commit: aac0ca169653683a0d527a07af253773f6fee515
+
+    add torrents
+
+
+
+ ...Y)(HiBiNo)(HunTer)(IE)(\347\276\216)32.torrent" |  559 ++++++++++++++++++++
+ ...15\343\201\227\343\201\212\343\202\212.torrent" |  Bin 0 -> 96768 bytes
+ ...03\343\203\217\343\203\253\343\203\237.torrent" |  Bin 0 -> 153521 bytes
+ ...15\343\202\242\343\202\271\343\202\253.torrent" |  Bin 0 -> 106209 bytes
+ .../autoload/\350\227\244\346\234\254AYAY.torrent" |  Bin 0 -> 102726 bytes
+ 5 files changed, 559 insertions(+), 0 deletions(-)
+
+================================================================================
+

@@ -1,21 +1,103 @@
-AFUN [GIT] commit aac0ca16: add torrents
+AFUN [GIT] commit 331b4118: Update torrents.
 
 
 Path  : git
-Date  : 2011-12-26 02:02:36 +0800
+Date  : 2012-05-07 23:07:10 +0800
 Author: keyduel
-Commit: aac0ca169653683a0d527a07af253773f6fee515
+Commit: 331b411843a1c825b007b0dc4caf5569bc4e3fc0
 
-    add torrents
+    Update torrents.
 
 
 
- ...Y)(HiBiNo)(HunTer)(IE)(\347\276\216)32.torrent" |  559 ++++++++++++++++++++
- ...15\343\201\227\343\201\212\343\202\212.torrent" |  Bin 0 -> 96768 bytes
- ...03\343\203\217\343\203\253\343\203\237.torrent" |  Bin 0 -> 153521 bytes
- ...15\343\202\242\343\202\271\343\202\253.torrent" |  Bin 0 -> 106209 bytes
- .../autoload/\350\227\244\346\234\254AYAY.torrent" |  Bin 0 -> 102726 bytes
- 5 files changed, 559 insertions(+), 0 deletions(-)
+ .reposman                                          |    1 +
+ hotstuffs/EmptyTrash.log                           |46260 ++++++++++++++++++++
+ hotstuffs/EmptyTrash.pl                            |   33 +
+ hotstuffs/delete.log                               |46260 --------------------
+ hotstuffs/delete.sh                                |   11 -
+ hotstuffs/list.txt                                 |17011 +++----
+ torrents/autoload/(sddm847)+SpeedPluss.torrent     |  Bin 0 -> 54599 bytes
+ .../autoload/0601-4 HTCdesireHD@sis001.com.torrent |  Bin 0 -> 55557 bytes
+ .../autoload/0601-5 HTCdesireHD@sis001.com.torrent |  Bin 0 -> 84562 bytes
+ .../autoload/0601-6 HTCdesireHD@sis001.com.torrent |  Bin 0 -> 59114 bytes
+ torrents/autoload/1pondo-122811_244.torrent        |  Bin 0 -> 163180 bytes
+ ...62\345\244\226\346\225\231\345\255\270.torrent" |  Bin 0 -> 27830 bytes
+ ...13\344\277\261\346\250\202\351\203\250.torrent" |  Bin 0 -> 25665 bytes
+ torrents/autoload/D-INDEX_110106061336.torrent     |  Bin 0 -> 23859 bytes
+ torrents/autoload/DF-25303.torrent                 |  Bin 0 -> 79219 bytes
+ torrents/autoload/DivX+nike(ONED918).torrent       |  Bin 0 -> 48358 bytes
+ torrents/autoload/JSHIROTO-a775-WMV.torrent        |  Bin 0 -> 48273 bytes
+ ...\242\343\203\241\343\203\252~KIRARI 03.torrent" |  Bin 0 -> 52498 bytes
+ ...46\262\231Risa~PT-28 Remix\357\274\201.torrent" |  Bin 0 -> 53220 bytes
+ ...30\347\264\232\345\250\274\345\251\246.torrent" |  Bin 0 -> 46602 bytes
+ ...\274\242@www.sexinsex.net@Encore Vol.2.torrent" |  Bin 0 -> 42569 bytes
+ torrents/autoload/Omm7WBk255.torrent               |  Bin 0 -> 53363 bytes
+ ...36\345\206\215\351\231\215\350\207\250.torrent" |  231 +
+ ...37\347\224\260\346\230\245\351\246\231.torrent" |  Bin 0 -> 61731 bytes
+ ...4\247\344\272\202\344\272\2442011_2-HD.torrent" |  Bin 0 -> 26854 bytes
+ ...@www.SIS001.com@Between The Cheekz # 10.torrent |  Bin 0 -> 63859 bytes
+ ...is001.coMarc Dorcel Pornochic 5 - Sandy.torrent |  Bin 0 -> 46761 bytes
+ ...1.com Marc Dorcel Pornochic 3 - Cristal.torrent |  Bin 0 -> 48123 bytes
+ ...001.com Marc Dorcel Pornochic 4 - Sarah.torrent |  Bin 0 -> 49116 bytes
+ ...01.com@Marc Dorcel Pornochic 12-katsumi.torrent |  Bin 0 -> 63534 bytes
+ ...s001.com@Marc Dorcel Pornochic 13-suzie.torrent |  Bin 0 -> 66957 bytes
+ ....com@Marc Dorcel Pornochic 14 - Yasmine.torrent |  Bin 0 -> 63428 bytes
+ ....com@Marc Dorcel Pornochic 15 - Melissa.torrent |  Bin 0 -> 54274 bytes
+ ...cel Pornochic 16 - Yasmine &amp; Regina.torrent |  Bin 0 -> 47326 bytes
+ ...001.com@Marc Dorcel Pornochic 17 -Tarra.torrent |  Bin 0 -> 63272 bytes
+ ...001.com@Marc Dorcel Pornochic 18-Aletta.torrent |  Bin 0 -> 52937 bytes
+ ...001.com@Marc Dorcel Pornochic 19 - jade.torrent |  Bin 0 -> 62925 bytes
+ ...001.com@Marc Dorcel Pornochic 20 - Anna.torrent |  Bin 0 -> 62610 bytes
+ ...el Pornochic 21 - Aleska &amp; Angelika.torrent |  Bin 0 -> 64187 bytes
+ ...www.sis001.com@too many women for a man.torrent |  Bin 0 -> 33809 bytes
+ torrents/autoload/gachi467-gachinco-720P.torrent   |  Bin 0 -> 85506 bytes
+ .../autoload/gzmj@sexinsex@KAYDEN KROSS.torrent    |   91 -
+ ...10\345\220\210\350\274\257\357\274\211.torrent" |  473 -
+ ...70\350\227\217\350\274\257\357\274\211.torrent" |  Bin 0 -> 158812 bytes
+ ...5\346\226\207\345\255\227\345\271\225).torrent" |  Bin 0 -> 31153 bytes
+ ...76\351\200\211\345\220\210\351\233\206.torrent" |  Bin 0 -> 109730 bytes
+ ...3\343\202\212\344\270\213\351\246\254).torrent" |  Bin 0 -> 45725 bytes
+ ...07\345\255\227\345\271\225\343\200\221.torrent" |  Bin 0 -> 23894 bytes
+ ...345\223\201-\347\254\25414\351\233\206.torrent" |  Bin 0 -> 64919 bytes
+ ...\346\274\224\357\274\232Haley Cummings.torrent" |  Bin 0 -> 71790 bytes
+ ...ayden Kross\344\270\223\350\276\221(1).torrent" |  Bin 0 -> 37066 bytes
+ ...XX.BDRip.XviD-TARLETSstarlets-thesmiths.torrent |  Bin 34734 -> 0 bytes
+ ...17\347\204\241\344\277\256\346\255\243.torrent" |  Bin 0 -> 89872 bytes
+ ...Global)(FA-Pro) 30-10-2011\343\200\221.torrent" |  494 -
+ ...50\346\203\205\351\231\266\351\206\211.torrent" |  Bin 0 -> 43264 bytes
+ ...30\343\201\204\343\201\232\343\201\277.torrent" |  Bin 0 -> 40926 bytes
+ ...\351\200\211DP\345\205\250\350\276\221.torrent" |  Bin 127192 -> 0 bytes
+ ...\344\270\213@www.sis001.com@n0705.H264.torrent" |  Bin 0 -> 52347 bytes
+ ...61\351\207\216\347\234\237\350\241\243.torrent" |  Bin 0 -> 55547 bytes
+ ...4 \347\254\240\346\234\250\345\277\215.torrent" |  Bin 0 -> 57754 bytes
+ ...00\345\206\205\350\243\244\347\255\211.torrent" |  Bin 0 -> 116761 bytes
+ ...43\347\231\274\344\275\234\345\223\201.torrent" |  Bin 0 -> 64566 bytes
+ ...06\344\271\263\345\260\221\345\245\263.torrent" |  Bin 0 -> 44518 bytes
+ ...15\343\201\227\343\201\212\343\202\212.torrent" |  Bin 96768 -> 0 bytes
+ ...nes a baiser by Tanya Hyde 2011 DVDRip.torrent" |  Bin 0 -> 65871 bytes
+ ...ayment.XXX.720p.Bluray.x264-Jiggly.mkv.torrent" |  Bin 0 -> 98187 bytes
+ ...chic Collector - Sapphire (2011DVDRip).torrent" |  Bin 0 -> 130273 bytes
+ ...nochic Collector - Silver (2011DVDRip).torrent" |  Bin 0 -> 118945 bytes
+ ...@Pornochic_Collector_-_Ruby_XXX_DVDRip.torrent" |  Bin 0 -> 65098 bytes
+ ...\277\203@www.sis001.com@Portland Manor.torrent" |  Bin 0 -> 89199 bytes
+ ...74\350\241\250\346\274\224\345\272\247.torrent" |  Bin 0 -> 43075 bytes
+ ...51\344\275\277\351\235\242\350\262\214.torrent" |  Bin 0 -> 80635 bytes
+ ...03\343\203\217\343\203\253\343\203\237.torrent" |  Bin 153521 -> 0 bytes
+ ...25\343\201\250\343\202\202\343\201\213.torrent" |  Bin 0 -> 55257 bytes
+ ...15\343\202\242\343\202\271\343\202\253.torrent" |  Bin 106209 -> 0 bytes
+ ...3\350\252\236\347\231\274\351\237\263).torrent" |  Bin 0 -> 18330 bytes
+ .../\350\207\252\346\213\2156\351\203\250.torrent" |  Bin 0 -> 65761 bytes
+ ...75\344\270\234\347\203\255\346\261\201.torrent" |  Bin 0 -> 82376 bytes
+ ...44\344\272\225\346\234\252\344\276\206.torrent" |  Bin 0 -> 69790 bytes
+ ...12\346\261\240\350\243\225\347\276\216.torrent" |  Bin 0 -> 77377 bytes
+ .../autoload/\350\227\244\346\234\254AYAY.torrent" |  Bin 102726 -> 0 bytes
+ ...64\344\272\244\346\265\201\345\207\272.torrent" |  Bin 0 -> 33848 bytes
+ ...53\345\271\271\347\277\273\345\244\251.torrent" |  Bin 0 -> 37391 bytes
+ ...3\213\344\273\224@sexinsex.net@S2M-002.torrent" |  Bin 0 -> 40928 bytes
+ ...7\214\252@www.sis001.com@TabooTaboo II.torrent" |  Bin 0 -> 58061 bytes
+ ...57\347\276\216\345\211\247\346\203\205.torrent" |  Bin 0 -> 25130 bytes
+ ...76\345\275\251\347\211\207\346\256\265.torrent" |  Bin 0 -> 20776 bytes
+ 87 files changed, 53046 insertions(+), 57819 deletions(-)
 
 ================================================================================
 
